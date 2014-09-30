@@ -1,0 +1,4 @@
+.search_box
+						label.hide(for='search_site') Поиск по каталогу
+						input.form_f_search(type='text', name='search_site', placeholder='Поиск по каталогу',id='search_site')
+						input.form_submit_search(type='submit', value='')

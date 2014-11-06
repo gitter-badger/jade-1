@@ -1,0 +1,27 @@
+mixin object_item
+	li.objects_item
+		.objects_box
+			a.obj_img(href="#" title="#")
+				img(src="i/content/face.jpg", alt="")
+			.obj_desc
+				.obj_d_item.mod_1
+					a(href="#").obj_name
+						span.st_1 Иванов
+						span.st_2 Порфирий Петрович
+				.obj_d_item.mod_2 Врач-офтальмолог
+				.obj_d_item.mod_3 Стаж работы: 25 лет
+				.obj_d_item.mod_4
+					a.obj_btn.btn_v1.st_2(href="#" title="#") Записаться на прием
+			.obj_footer
+				a.obj_link.mod_1(href="#" title="#")
+					span.obj_l_text.st_1 Подробнее
+				a.obj_link.mod_1(href="#" title="#")
+					span.obj_l_text.st_2 Расписание
+
+mixin nav_item(text)
+	li.nav_item
+		a.nav_link(href="#" title="#") #{text}
+
+mixin nav_item_active(text)
+	li.nav_item.active
+		a.nav_link(href="#" title="#") #{text}

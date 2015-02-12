@@ -1,13 +1,13 @@
 .tabs_block
-										ul.tabs
-												li.tabs_item.selected(data-tab='1') Описание
-												li.tabs_item(data-tab='2') Характеристики
-										ul.tabs_contents
-												li.tabs_c_item.selected(data-content='1')
-														.text_v2
-																p Burton Blunt - это отличная парковая доска, ориентированная, преимущественно на джиббинг. Но на ней можно спокойно начинать свой путь в сноубординге новичкам. Ведь доска сама по себе мягкая и податливая, что позитивно сказывается на прогрессе в катании.  Графика - Jeff Fried.
-																p Система закладных ICS. Форма Twin. Сердечник - Fly Core. Scoop, Jumper Cables, Frostbite Edges,  Pro-Tip.
-												li.tabs_c_item(data-content='2')
-														.text_v2
+	ul.tabs
+		li.tabs_item.selected(data-tab='1') Описание
+		li.tabs_item(data-tab='2') Характеристики
+	ul.tabs_contents
+		li.tabs_c_item.selected(data-content='1')
+			.text_v2
+				p Burton Blunt - это отличная парковая доска, ориентированная, преимущественно на джиббинг. Но на ней можно спокойно начинать свой путь в сноубординге новичкам. Ведь доска сама по себе мягкая и податливая, что позитивно сказывается на прогрессе в катании.  Графика - Jeff Fried.
+				p Система закладных ICS. Форма Twin. Сердечник - Fly Core. Scoop, Jumper Cables, Frostbite Edges,  Pro-Tip.
+		li.tabs_c_item(data-content='2')
+			.text_v2
 																h3.title_v2 Спецификация burton ripcord
 															
